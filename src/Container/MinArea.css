@@ -1,0 +1,41 @@
+.MinArea-img{
+    overflow: hidden;
+    z-index: 1 !important;
+    position: relative;
+}
+.MinArea .img{ 
+   padding: 120px 0 120px 150px;
+   position: relative;
+   z-index: 1;
+}
+.MinArea .img:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 120px;
+    bottom: 0;
+    left: -300px;
+    background: #18191d;  
+}
+.MinArea .content{
+   margin-top: 200px;
+   margin-left: 40px;
+}
+.MinArea .content ul li{
+    color: white;
+    font-weight: 400;
+    font-size: 17px;
+    padding-top: 22px;
+    position: relative;
+}
+
+ @media screen and (max-width:1399px){
+    .MinArea .content{
+        margin-top: 105px;
+        margin-left: 0;
+     }
+     .MinArea .img{
+        padding: 120px 0;
+ 
+    }
+} 

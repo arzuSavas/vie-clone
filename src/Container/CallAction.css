@@ -1,0 +1,47 @@
+.call-action{
+    background-image: url(https://vie-alpha.vercel.app/img/patrn.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 120px 0;
+    background-color: #18191d;
+}
+.content h6 span{
+    font-weight: 400;
+    color: #12c2e9;
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    margin-bottom: 10px;
+}
+.content h2 span:first-child{
+    font-weight: 700;
+    font-size: 4vw;
+    line-height: 1.2;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #fff;
+    color: transparent;
+}
+.content h2 span:last-child{
+    background: linear-gradient(to right, #12c2e9, #c471ed, #f64f59);
+    font-weight: 700;
+    font-size: 4vw;
+    line-height: 1.2;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    color: white;
+}
+@media screen and (max-width: 991px)
+{
+    .call-action{
+    background-position: center !important;
+   }
+}
+@media screen and (max-width: 767px)
+{
+    .call-action .content h2 span {
+    font-size: 7vw;
+    }
+}

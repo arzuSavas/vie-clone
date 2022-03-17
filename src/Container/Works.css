@@ -1,0 +1,78 @@
+.Works{
+   width: 100%;
+   position: relative;
+   padding-top:250px;
+   padding-bottom:150px;
+}
+.sec-head {
+   margin: auto;
+   line-height:1.3;
+}
+.Works-carousel{
+  align-items: center;
+  float: left;
+  display: flex;
+  justify-content: center; 
+  margin-top: 50px;
+  overflow: scroll;
+}
+.Works-carousel div{
+  padding: 0 10px;
+  display: flex;
+  position: relative;
+}
+
+.Works-carousel div img{
+    border-radius: 5px;
+}
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.Works .swiper {
+  width: 100%;
+  height: 100%;
+}
+.Works .swiper-button-next,
+.Works .swiper-button-prev{
+  color: white!important;
+  opacity: 0.5;
+  
+}
+.Works .swiper-pagination-bullet {
+  display: none !important;
+}
+.Works .swiper-button-next:hover,
+.Works .swiper-button-prev:hover{
+  color:black !important;
+  background-color:white;
+  width: 60px;
+  height:60px;
+  opacity:1;
+  transition: all 0.3s;
+}
+.Works .swiper-slide {
+  padding: 0px 12px 50px;
+}
+.slide-text{
+  position: absolute;
+  bottom: 100px;
+  left: 40px;
+  color: #fff;
+}
+.slide-text h6{
+  font-size: 13px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  margin-bottom: 10px;
+  
+}
+.slide-text h4{
+  font-weight: 600;
+}
+.content img{
+   border-radius: 5px;
+}

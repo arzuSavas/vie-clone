@@ -1,0 +1,122 @@
+.references{
+  margin: 150px 0;
+}
+.references .swiper-slide-active .item {    
+    margin-top: -10px;
+    padding: 80px 40px;
+}
+.references .item .img img{
+    width: 80px;
+    height: 80px;
+    border: 7px solid #25262c;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-bottom: 20px;
+    align-items: center;
+}
+.item-left{
+  margin-top:37px !important; 
+}
+.item-right{
+    float: left;
+    border-left:1px solid #25262c;  
+}
+.item-right p{
+    text-align:left;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 2;
+    margin-bottom: 20px;
+    color: white;
+    padding-left: 10px;
+}
+.references .text h6{
+    font-weight: 700;
+    font-size: 15px;
+    background: linear-gradient(to right, #12c2e9, #c471ed, #f64f59);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.references .text span{
+    color: white;
+    font-size:13px;
+}
+.references .swiper-button-next,
+.references .swiper-button-prev{
+  color: white!important;
+  opacity:1;
+  border: 1px solid white;
+  border-radius: 50%;
+  width: 50px;
+  height:50px;
+}
+.references .swiper-button-prev{
+  margin-left: 350px;
+}
+.references .swiper-button-next{
+  margin-right: 350px;
+}
+.references .swiper-button-next:after, 
+.references .swiper-button-prev:after{
+  font-size: small;
+}
+.references .swiper-button-next:hover,
+.references .swiper-button-prev:hover{
+  color:#12c2e9 !important;
+  border: 1px solid #12c2e9;
+  background-color:transparent;
+  transition: all 0.3s;
+}
+.references .swiper-pagination-bullet {
+  display: none !important;
+}
+.references .item{
+    text-align: left;
+    padding: 40px 20px;
+    margin-top: 50px; 
+    background:-webkit-linear-gradient(323.53deg,#18191d 6.69%,rgba(2, 2, 30, 0)85.43%);
+    min-width: 120px;
+}
+@media screen and (max-width:991px){
+  .item-right p{
+    font-size: 18px;
+    line-height: 2;
+    margin-bottom: 0;
+    padding-left: 10px;
+}
+} 
+@media screen and (max-width:576px){
+  .item-right p{
+    font-size: 14px;
+    line-height: 2;
+    margin-top:10px;
+    padding-left:0;
+    text-align: center;
+}
+.item-right{
+  text-align: center;
+  border:none;
+}
+.references .item .img img{
+  margin: auto;
+}
+.references .item .text{
+  text-align: center;
+  margin:5px;
+}
+.references .swiper-slide-active .item {
+   padding: 40px 0;
+}
+.references .swiper-button-next,
+.references .swiper-button-prev{
+   display: none;
+}
+} 
+@media screen and (max-width:1456px){
+   .references .swiper-button-prev{
+     margin-left: 0;
+    }
+   .references .swiper-button-next{
+    margin-right: 0;
+   }
+}

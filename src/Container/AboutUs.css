@@ -1,0 +1,58 @@
+.AboutUs-container {
+  align-items: center;
+}
+.exp{
+    padding: 10px 30px;
+    margin-top: 15px;
+    border: 1px solid;
+    border-image: linear-gradient(to right, #12c2e9, #c471ed, #f64f59) 30;
+}
+.exp h2{
+    color: white;
+    font-size: 70px;
+    font-weight: 700;
+}
+.exp h6{
+    color: #999;
+    margin-top: 5px;
+    font-size: 18px;
+}
+.AboutUs-content h4{
+    font-weight: 700;
+    font-size: 40px;
+    line-height:0.5;
+    margin-bottom: 20px;
+    color: white;
+}
+.AboutUs-text p{
+    color: #a4a7b1;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 2;
+    margin: 0;
+}
+.AboutUs-text{
+    margin: auto !important;;
+}
+.right-line{
+    margin-top: 150px;
+    height:2px;
+    float: right;
+    bottom:0;
+    width: 65%;
+    background: linear-gradient(to right, #12c2e9, #c471ed, #f64f59)
+}
+ @media screen and (max-width:992px){
+    .AboutUs-text {
+        margin-top:66px !important;
+    }
+    .exp{
+        margin-bottom: 15px;
+    }
+} 
+@media screen and (max-width:425px){
+      .AboutUs-content h4{
+        font-size: 28px;
+        line-height: 0;
+      }
+} 
