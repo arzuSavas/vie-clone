@@ -1,5 +1,5 @@
 # vie-clone
- klonlama yapmış olduğum web sitesine [buradan erişebilirsiniz.](https://vie-alpha.vercel.app/homepage/home5-dark/)
+ Klonlama yapmış olduğum web sitesine [buradan erişebilirsiniz.](https://vie-alpha.vercel.app/homepage/home5-dark/)
 ## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
